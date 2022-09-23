@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+.Formulario{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 50vh;
+    background-color: #1EE3CF;
+}
+.Formulario2{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 72vh;
+    background-color: #1EE3CF;
+}
+.lottie{
+    background-color: #F2F4F6;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+input{
+    text-align: center; 
+}
+.Boton {
+    font-family: 'PT Sans Narrow', sans-serif;
+    min-width: 130px;
+    height: 40px;
+    color: #6B48FF;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #57cc99;
+    color: #6B48FF;
+  }
+  .Boton:hover {
+    color: #fff;
+  }
+  .Boton:after {
+    width: 100%;
+  }
+  .Boton:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #57cc99;
+  }
